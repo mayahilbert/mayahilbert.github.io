@@ -42,7 +42,9 @@ div.home {
 img.full-width {
   width: 100%;
 }
-
+img.quarter-width {
+  width: 50%;
+}
 img.quarter-width {
   width: 33%;
 }
@@ -76,12 +78,22 @@ p.contact-link {
   padding-bottom: 5%;
 }
 
+.centered{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
 p.centered {
   text-align: center;
   vertical-align: center;
   position: fixed;
   top: 50%
+}
 
+p.text-padded{
+  padding: 0 20% 0 20%;
 }
 
 a:hover, a:focus {
@@ -93,8 +105,15 @@ a:hover, a:focus {
   margin-top: 5em;
 }
 
+
+p.tagline{
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+
 p.worktitle {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   font-size: 2rem;
   font-weight: 400;
   padding-top: 1rem;
@@ -110,6 +129,32 @@ p.worktitle-news {
   padding: 8em 0 8em 0;
 }
 
+p.section-head{
+  font-weight: 800;
+}
+
+p.definition{
+  padding: 0 5% 0 5%;
+}
+
+span.definition-word{
+  font-weight: 300;
+}
+
+.coh{
+  text-transform: uppercase !important;
+}
+
+.coh-bg{
+  background-color: #849ef3;
+}
+
+.coh-screen{
+  padding: 60px;
+}
+.coh-gif{
+  padding: 10% 30% 10% 30%;
+}
 .spacer {
   padding: 5rem;
 }
@@ -184,13 +229,21 @@ div.work-container {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.gallery-container {
+.slideshow {
   position: relative;
+  margin: auto;
+  max-width: 100%;
+              }
+
+.mySlides {
+  display: none;
+  height: 600px;
 }
 
-/* Hide the images by default */
-.mySlides1, .mySlides2 {
-  display: none;
+.mySlides img{
+  object-fit: contain;
+  max-width:100%;
+  max-height:100%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -203,16 +256,21 @@ div.work-container {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+}
+
+a.prev:hover,
+a.next:hover {
+  color: white !important;
+
 }
 
 /* Position the "next button" to the right */
@@ -224,7 +282,7 @@ div.work-container {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0);
 }
 
 
@@ -241,12 +299,12 @@ div.work-container {
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.dot {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.dot:hover {
   opacity: 1;
 }
 
@@ -284,4 +342,15 @@ div.work-container {
     width: 100%;
   }
 
+  p.text-padded{
+    padding: 0 5% 0 5%;
+  }
+
+  .coh-screen{
+    padding: 90px;
+  }
+
+  .coh-gif{
+    padding: 50px;
+  }
 }

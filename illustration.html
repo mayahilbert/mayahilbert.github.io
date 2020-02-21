@@ -30,117 +30,171 @@
   </a>
 
         <!-- Page Content -->
-        <div class="container page-contents col-lg-6 text-center">
+        <div class="container page-contents col-lg-6">
 
-                    <p class="lead section-head">PERSONAL</p>
-                    <p class="lead">digital</p>
-          <div class="gallery-container">
+                    <p class="lead section-head text-center">PERSONAL</p>
+                    <p class="worktitle text-center">digital</p>
+          <div class="gallery-container slideshow">
+
+                       <!-- Thumbnail images -->
+                       <div class="gallery-row">
+                         <div class="gallery-column">
+                           <img class="dot cursor" src="images/d-i1-s.png" style="width:100%" onclick="currentDiv(1, 0)">
+                         </div>
+                         <div class="gallery-column">
+                           <img class="dot cursor" src="images/d-i2-s.png" style="width:100%" onclick="currentDiv(2, 0)">
+                         </div>
+                         <div class="gallery-column">
+                           <img class="dot cursor" src="images/d-i3-s.png" style="width:100%" onclick="currentDiv(3, 0)">
+                         </div>
+                         <div class="gallery-column">
+                           <img class="dot cursor" src="images/d-i4-s.png" style="width:100%" onclick="currentDiv(4, 0)">
+                         </div>
+                         <div class="gallery-column">
+                           <img class="dot cursor" src="images/d-i5-s.png" style="width:100%" onclick="currentDiv(5, 0)">
+                         </div>
+                       </div>
+                       <br>
            <!-- Full-width images with number and caption text -->
-           <div class="mySlides1">
+           <div class="mySlides">
              <img src="images/d-i1.png" style="width:100%">
            </div>
 
-           <div class="mySlides1">
+           <div class="mySlides">
              <img src="images/d-i2.png" style="width:100%">
            </div>
 
-           <div class="mySlides1">
+           <div class="mySlides">
              <img src="images/d-i3.png" style="width:100%">
            </div>
 
-           <div class="mySlides1">
+           <div class="mySlides">
              <img src="images/d-i4.png" style="width:100%">
            </div>
 
-           <div class="mySlides1">
+           <div class="mySlides">
              <img src="images/d-i5.png" style="width:100%">
            </div>
 
 
            <!-- Next and previous buttons -->
-           <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-           <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+           <a class="prev" onclick="plusDivs(-1, 0)">&#10094;</a>
+           <a class="next" onclick="plusDivs(1, 0)">&#10095;</a>
 
-           <div class="smallspacer">
-           </div>
-
-           <!-- Thumbnail images -->
-           <div class="gallery-row">
-             <div class="gallery-column">
-               <img class="dots1 cursor" src="images/d-i1-s.png" style="width:100%" onclick="currentSlide(1, 0)">
-             </div>
-             <div class="gallery-column">
-               <img class="dots1 cursor" src="images/d-i2-s.png" style="width:100%" onclick="currentSlide(2, 0)">
-             </div>
-             <div class="gallery-column">
-               <img class="dots1 cursor" src="images/d-i3-s.png" style="width:100%" onclick="currentSlide(3, 0)">
-             </div>
-             <div class="gallery-column">
-               <img class="dots1 cursor" src="images/d-i4-s.png" style="width:100%" onclick="currentSlide(4, 0)">
-             </div>
-             <div class="gallery-column">
-               <img class="dots1 cursor" src="images/d-i5-s.png" style="width:100%" onclick="currentSlide(5, 0)">
-             </div>
-           </div>
          </div>
 
+<div class="smallspacer"></div>
+          <p class="worktitle text-center">traditional</p>
+          <div class="gallery-container slideshow">
 
-          <br><br><br>
-          <p class="lead">traditional</p>
+          <!-- Thumbnail images -->
+          <div class="gallery-row">
+            <div class="gallery-column">
+              <img class="dot cursor" src="images/t-i1-s.png" style="width:100%" onclick="currentDiv(1, 1)">
+            </div>
+            <div class="gallery-column">
+              <img class="dot cursor" src="images/t-i2-s.jpg" style="width:100%" onclick="currentDiv(2, 1)">
+            </div>
+            <div class="gallery-column">
+              <img class="dot cursor" src="images/t-i3-s.jpg" style="width:100%" onclick="currentDiv(3, 1)">
+            </div>
+            <div class="gallery-column">
+              <img class="dot cursor" src="images/t-i4-s.png" style="width:100%" onclick="currentDiv(4, 1)">
+            </div>
+            <div class="gallery-column">
+              <img class="dot cursor" src="images/t-i5-s.png" style="width:100%" onclick="currentDiv(5, 1)">
+            </div>
+          </div>
 
-<div class="gallery-container">
- <!-- Full-width images with number and caption text -->
- <div class="mySlides2">
-   <img src="images/d-i1.png" style="width:100%">
+           <br>
+
+            <!-- Full-width images with number and caption text -->
+ <div class="mySlides">
+   <img src="images/t-i1.png" style="width:100%">
  </div>
 
- <div class="mySlides2">
+ <div class="mySlides">
    <img src="images/t-i2.jpg" style="width:100%">
  </div>
 
- <div class="mySlides2">
-   <img src="images/t-i3.png" style="width:100%">
+ <div class="mySlides">
+   <img src="images/t-i3.jpg" style="width:100%">
  </div>
 
- <div class="mySlides2">
+ <div class="mySlides">
    <img src="images/t-i4.png" style="width:100%">
  </div>
 
- <div class="mySlides2">
+ <div class="mySlides">
    <img src="images/t-i5.png" style="width:100%">
  </div>
 
 
  <!-- Next and previous buttons -->
- <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
- <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+ <a class="prev" onclick="plusDivs(-1, 1)">&#10094;</a>
+ <a class="next" onclick="plusDivs(1, 1)">&#10095;</a>
 
- <div class="smallspacer">
- </div>
-
- <!-- Thumbnail images -->
- <div class="gallery-row">
-   <div class="gallery-column">
-     <img class="dots2 cursor" src="images/d-i1-s.png" style="width:100%" onclick="currentSlide(1, 1)">
-   </div>
-   <div class="gallery-column">
-     <img class="dots2 cursor" src="images/t-i2-s.jpg" style="width:100%" onclick="currentSlide(2, 1)">
-   </div>
-   <div class="gallery-column">
-     <img class="dots2 cursor" src="images/t-i3-s.png" style="width:100%" onclick="currentSlide(3, 1)">
-   </div>
-   <div class="gallery-column">
-     <img class="dots2 cursor" src="images/t-i4-s.png" style="width:100%" onclick="currentSlide(4, 1)">
-   </div>
-   <div class="gallery-column">
-     <img class="dots2 cursor" src="images/t-i5-s.png" style="width:100%" onclick="currentSlide(5, 1)">
-   </div>
- </div>
 </div>
 
-            <p class="lead section-head">EDITORIAL</p>
-            <p class="lead">refract magazine 2018-2019</p>
+<div class="spacer"></div>
+            <p class="lead section-head text-center">EDITORIAL</p>
+            <p class="worktitle text-center">refract magazine 2018-2019</p>
+            <div class="gallery-container slideshow">
 
+            <!-- Thumbnail images -->
+            <div class="gallery-row">
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i1-s.png" style="width:100%" onclick="currentDiv(1, 2)">
+              </div>
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i2-s.png" style="width:100%" onclick="currentDiv(2, 2)">
+              </div>
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i3-s.png" style="width:100%" onclick="currentDiv(3, 2)">
+              </div>
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i4-s.png" style="width:100%" onclick="currentDiv(4, 2)">
+              </div>
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i5-s.png" style="width:100%" onclick="currentDiv(5, 2)">
+              </div>
+              <div class="gallery-column">
+                <img class="dot cursor" src="images/r-i6-s.png" style="width:100%" onclick="currentDiv(5, 2)">
+              </div>
+            </div>
+
+             <br>
+
+              <!-- Full-width images with number and caption text -->
+   <div class="mySlides">
+     <img src="images/r-i1.png" style="width:100%">
+   </div>
+
+   <div class="mySlides">
+     <img src="images/r-i2.png" style="width:100%">
+   </div>
+
+   <div class="mySlides">
+     <img src="images/r-i3.png" style="width:100%">
+   </div>
+
+   <div class="mySlides">
+     <img src="images/r-i4.png" style="width:100%">
+   </div>
+
+   <div class="mySlides">
+     <img src="images/r-i5.png" style="width:100%">
+   </div>
+
+    <div class="mySlides">
+      <img src="images/r-i6.png" style="width:100%">
+    </div>
+
+   <!-- Next and previous buttons -->
+   <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
+   <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
+
+  </div>
 
         </div>
       </div>
@@ -151,7 +205,7 @@
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.slim.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="gallery.js"></script>
+        <script src="script.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="vendor/jquery/jquery.min.js"></script>
 
