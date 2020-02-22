@@ -42,12 +42,13 @@ div.home {
 img.full-width {
   width: 100%;
 }
-img.quarter-width {
+img.half-width {
   width: 50%;
 }
 img.quarter-width {
   width: 33%;
 }
+
 
 body.animate-out {
     opacity: 0;
@@ -352,5 +353,10 @@ a.next:hover {
 
   .coh-gif{
     padding: 50px;
+  }
+
+
+  .padding-bottom-10{
+    padding-bottom: 10px;
   }
 }
