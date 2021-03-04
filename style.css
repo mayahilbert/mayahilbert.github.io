@@ -3,24 +3,24 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
 }
 
-img{
+img {
   width: 100%;
 }
 
-div.project-image{
+div.project-image {
   height: 100px;
   width: 500px;
 }
 
-img.project-image{
-  width:100%;
-  height:100%;
-  object-fit:cover;
- }
+img.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 h1 {
   font-weight: 800;
@@ -56,27 +56,27 @@ div.home {
 img.full-width {
   width: 100%;
 }
+
 img.half-width {
   width: 50%;
 }
+
 img.quarter-width {
   width: 33%;
 }
 
-
 body.animate-out {
-    opacity: 0;
-    -moz-transition: opacity 1.5s;
-    -webkit-transition: opacity 1.5s;
-    -o-transition: opacity 1.5s;
-    transition: opacity 1.5s;
+  opacity: 0;
+  -moz-transition: opacity 1.5s;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
 }
 
 .arrow {
   display: inline;
   font-size: 3rem;
   font-weight: 400;
-
 }
 
 h1.home {
@@ -93,11 +93,11 @@ p.contact-link {
   padding-bottom: 5%;
 }
 
-.centered{
+.centered {
   display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p.centered {
@@ -107,7 +107,7 @@ p.centered {
   top: 50%
 }
 
-p.text-padded{
+p.text-padded {
   padding: 0 20% 0 20%;
 }
 
@@ -120,8 +120,7 @@ a:hover, a:focus {
   margin-top: 5em;
 }
 
-
-p.tagline{
+p.tagline {
   font-weight: 300;
   font-size: 1.5rem;
   font-variant: small-caps;
@@ -144,38 +143,52 @@ p.worktitle-news {
   padding: 8em 0 8em 0;
 }
 
-p.section-head{
+p.section-head {
   font-weight: 800;
 }
 
-p.definition{
+p.definition {
   padding: 0 5% 0 5%;
 }
 
-span.definition-word{
+span.definition-word {
   font-weight: 300;
 }
 
-.coh{
+.coh {
   text-transform: uppercase !important;
 }
 
-.coh-bg{
+.coh-bg {
   background-color: #849ef3;
 }
 
-.coh-screen{
+.coh-screen {
   padding: 60px;
 }
-.coh-gif{
+
+.coh-gif {
   padding: 10% 30% 10% 30%;
 }
+
 .spacer {
   padding: 5rem;
 }
 
-.smallspacer{
+.smallspacer {
   padding: 2rem;
+}
+
+p.potnis-container {
+  background-color: #9cafb7;
+}
+
+p.yams-container {
+  background-color: #2322ad;
+}
+
+p.rothenberg-container {
+  background-color: #e3897e;
 }
 
 p.ahwesh-container {
@@ -187,7 +200,8 @@ p.benson-container {
 }
 
 p.demirjian-container {
-  background-color: #699e97;/* 699e97*/
+  background-color: #699e97;
+  /* 699e97*/
 }
 
 div.work-container {
@@ -207,8 +221,8 @@ div.work-container {
   height: 100%;
   text-align: center;
   transition: transform 0.5s;
-   transform-style: preserve-3d;
-   perspective: 1400px;
+  transform-style: preserve-3d;
+  perspective: 1400px;
 }
 
 .flip-card-inner:hover {
@@ -248,17 +262,17 @@ div.work-container {
   position: relative;
   margin: auto;
   max-width: 100%;
-              }
+}
 
 .mySlides {
   display: none;
   height: 600px;
 }
 
-.mySlides img{
+.mySlides img {
   object-fit: contain;
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -285,7 +299,6 @@ div.work-container {
 a.prev:hover,
 a.next:hover {
   color: white !important;
-
 }
 
 /* Position the "next button" to the right */
@@ -299,7 +312,6 @@ a.next:hover {
 .next:hover {
   background-color: rgb(0, 0, 0);
 }
-
 
 .gallery-row:after {
   content: "";
@@ -327,8 +339,11 @@ a.next:hover {
 /* - - - - - - MOBILE - - - - - - -
 - - - - - - - STYLES - - - - - - -*/
 /*********************************/
-
 @media only screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none;
+  }
+
   .sidenav {
     top: auto;
     bottom: 0;
@@ -337,7 +352,6 @@ a.next:hover {
     background-color: #fff;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-
   }
 
   div.home {
@@ -353,24 +367,23 @@ a.next:hover {
     padding: 2rem;
   }
 
-  img.mobile-full-width{
+  img.mobile-full-width {
     width: 100%;
   }
 
-  p.text-padded{
+  p.text-padded {
     padding: 0 5% 0 5%;
   }
 
-  .coh-screen{
+  .coh-screen {
     padding: 90px;
   }
 
-  .coh-gif{
+  .coh-gif {
     padding: 50px;
   }
 
-
-  .padding-bottom-10{
+  .padding-bottom-10 {
     padding-bottom: 10px;
   }
 }
