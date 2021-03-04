@@ -143,6 +143,24 @@ p.worktitle-news {
   padding: 8em 0 8em 0;
 }
 
+p.worktitle-rothenberg-website {
+  background-image: url("images/rothenberg_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
+p.worktitle-yams-website {
+  background-image: url("images/yams_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
+p.worktitle-potnis-website {
+  background-image: url("images/potnis_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
 p.section-head {
   font-weight: 800;
 }
